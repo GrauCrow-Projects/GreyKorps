@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  font-family: "Monsterrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+  text-decoration: none;
+}
+
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #f2f2f2;
+}
+
+header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 5%;
+}
+
+.logo {
+  width: 150px;
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #696969;
+}
+
+.main-container {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.box-container {
+  margin-left: 25px;
+  width: 250px;
+}
+
+.box-head h2 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #f2f2f2;
+}
+
+.box-body {
+  margin-top: 25px;
+}
+
+.box-body ul,
+li {
+  font-weight: 500;
+  font-size: 16px;
+  color: #f2f2f2;
+  list-style-type: none;
+}
